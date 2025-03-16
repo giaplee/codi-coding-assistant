@@ -1,3 +1,7 @@
+![GitHub License](https://img.shields.io/github/license/giaplee/codi-coding-assistant)
+[![VS code extension](https://img.shields.io/badge/any_text-you_like-blue?style=flat-square&label=VS%20Code%20Extension)
+](https://#)
+
 # CODi - Coding Assistant
 
 This extension serves as a powerful coding assistant, enabling developers to research and write code more efficiently and accurately. It supports various common LLM cloud providers such as OpenAI, Gemini, Grok, and Claude, as well as local LLMs like Ollama and LM Studio, helping developers receive support faster while significantly reducing costs.
@@ -14,10 +18,16 @@ This extension serves as a powerful coding assistant, enabling developers to res
 ## Some images for reference
 
 ``Dynamic setting UI``
-![Code explanation](resources/codi_ext_setting.png)
+![Dynamic setting UI](resources/codi_ext_setting.png)
 
 ``Code explanation``
 ![Code explanation](resources/codi_ext_code_explain.png)
+
+``Floating menu``
+![Floating menu](resources/codi_ext_codelens_menu.png)
+
+``Generate code with inline prompt``
+![Generate code inline](resources/codi_ext_prompt_inline.png)
 
 ## Requirements
 
