@@ -1,0 +1,9 @@
+<svg width="300" height="300" xmlns="http://www.w3.org/2000/svg" fill="none">
+ <g id="Layer_1">
+  <title>Layer 1</title>
+  <path stroke="#ff7f00" stroke-width="20" fill-opacity="0" id="svg_2" d="m3,4l0,294.38522l206.88889,0l33.40001,-14.70728l24.31111,-21.29669l16.33331,-20.11986l13.06668,-22.23772l0,-214.96474l-294,-1.05894z" opacity="NaN" fill="#000000"/>
+  <text stroke="#000" transform="matrix(2.71484 0 0 2.71484 -85.5531 -186.701)" font-weight="bold" xml:space="preserve" text-anchor="start" font-family="'Ruda'" font-size="26" stroke-width="2" id="svg_3" y="130.59846" x="56.30847" fill="#4c4c4c">CODi</text>
+  <path stroke="#000" stroke-width="0" id="svg_10" d="m244.6295,162.19243l17.8998,-17.89911l-17.8998,-17.89986l10.23106,-10.22878l28.13144,28.12863l-28.13144,28.13722" fill="#000000"/>
+  <path transform="rotate(180 35.8108 142.298)" stroke="#000" stroke-width="0" id="svg_12" d="m16.6295,160.19243l17.8998,-17.89911l-17.8998,-17.89986l10.23106,-10.22878l28.13144,28.12863l-28.13144,28.13722" fill="#000000"/>
+ </g>
+</svg>
