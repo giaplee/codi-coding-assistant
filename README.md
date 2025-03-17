@@ -51,25 +51,25 @@ This extension contributes the following settings:
 
 ## Important notes
 
+- The extension doesn't collect and/or transfer any data from the client over the internet.
 - When using local LLM services, users might experience performance (response speed) and accuracy issues that depend on the specific model selected to run in Ollama or LM Studio.
 - In most cases, using cloud LLM providers like Gemini, OpenAI, or Grok will result in faster response times compared to local API services.
 - The response time of local LLM services is significantly influenced by the local computer's hardware (CPU, GPU support).
 
 ## Release Notes
 
-### 0.0.1 (current)
+### 0.0.1
 
 - Dynamic settings help you easily switch between LLM models and providers while coding.
 - Keyword explanation pops up on mouse hover.
 - Review and fix selected code (line, block, or the entire file).
 - Floating action menu appears at the top of the code block or selected lines of code.
 
-### 0.0.2 (next version)
+### 0.0.2 (current)
 
-> In this version will includes:
+> In this version includes:
 
-- **Claude supporting**: integrate Claude API along with it's lates model list.
-- **Code syntax**: will add code syntax highlight for multiple language as VS code built-in formatting.
+- **Update description**: Edit and update any incorrect links and add a 'no data collection' statement to the description.
 
 ## Additional Resources
 
