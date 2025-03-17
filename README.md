@@ -76,8 +76,8 @@ This extension contributes the following settings:
 For more information on the cloud providers supported by this extension, you can visit the following links:
 
 - **OpenAI**: [OpenAI API Documentation](https://platform.openai.com/docs/introduction)
-- **Gemini**: [Gemini Documentation](https://gemini.ai/docs)
-- **Grok**: [Grok Documentation](https://grok.ai/docs)
+- **Gemini**: [Gemini Documentation](https://ai.google.dev/gemini-api/docs)
+- **Grok**: [Grok Documentation](https://docs.x.ai/docs/overview)
 - **Claude**: [Claude Documentation](https://anthropic.com/claude)
 
 These resources will help you easily find the information you need to get started with each provider.
