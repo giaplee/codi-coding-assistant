@@ -6,24 +6,29 @@
 
 This extension serves as a powerful coding assistant, enabling developers to research and write code more efficiently and accurately. It supports various common LLM cloud providers such as OpenAI, Gemini, Grok, and Claude, as well as local LLMs like Ollama and LM Studio, helping developers receive support faster while significantly reducing costs.
 
+>>**To Active the CODi Assistant:** Click on the icon in the left side panel (Activity bar) of the VS code IDE, then fill in your configuration data to use it. (Remember to click on Save Setting button at the bottom!)
+
 ## Features
 
 - **Multi-LLM Provider Support**: Seamlessly switch between multiple LLM providers (OpenAI, Gemini, Grok, Claude).
 - **Local LLM Integration**: Utilize local LLMs like Ollama and LM Studio for quicker responses and cost savings.
 - **Code Optimization**: Get recommendations for optimizing your code as you write.
 - **Research Assistance**: Effortlessly research coding queries and get instant responses.
-- **Privacy Focused**: Trust that this extension does not collect or send any private data over the internet.
+- **Privacy Focused**: Rest assured that this extension does not collect or send any private data over the internet, except for sending data to the LLM provider service to obtain answers.
 - **Floating menu**: A floating menu above the code, line, or block can assist you in making code suggestions or asking additional questions effortlessly. Additionally, you can use this menu to input your own prompts for further assistance or to fix coding issues quickly.
 
 ## Some images for reference
 
-``Dynamic setting UI``
-![Dynamic setting UI](resources/codi_ext_setting.png)
+### Dynamic setting UI
 
-``Code explanation``
-![Code explanation](resources/codi_ext_code_explain.png)
+![Dynamic setting UI](resources/codi_ext_full_screen_cap.png)
 
-``Floating menu``
+### Code explanation
+
+![Code explanation](resources/codi_ext_004_explaination.png)
+
+### Floating menu
+
 ![Floating menu](resources/codi_ext_codelens_menu.png)
 
 ``Generate code with inline prompt``
@@ -40,9 +45,9 @@ This extension serves as a powerful coding assistant, enabling developers to res
 
 To set up local LLMs, you can follow these guides:
 
-- **Ollama**: Install Ollama by following the instructions on their [official website](https://ollama.com/docs/getting-started). After installation, you can pull models using commands like `ollama pull qwen2.5-coder:7b`.
+- **Ollama**: Install Ollama by following the instructions on their [official website](https://ollama.com/docs/getting-started). After installation, you can pull models using commands like `ollama pull qwen2.5-coder:7b` or pull and run a model `ollama run qwen2.5-coder:7b`. Local API URL (default) = `http://localhost:11434/api/generate`
   
-- **LM Studio**: Download LM Studio from their [official site](https://lmstudio.ai) and follow the setup instructions provided there.
+- **LM Studio**: Download LM Studio from their [official site](https://lmstudio.ai) and follow the setup instructions provided there. Local API URL (default) = `http://localhost:1234/v1/completions` or `http://localhost:1234/v1/chat/completions`
 
 ## Extension Settings
 
@@ -55,6 +60,7 @@ This extension contributes the following settings:
 - When using local LLM services, users might experience performance (response speed) and accuracy issues that depend on the specific model selected to run in Ollama or LM Studio.
 - In most cases, using cloud LLM providers like Gemini, OpenAI, or Grok will result in faster response times compared to local API services.
 - The response time of local LLM services is significantly influenced by the local computer's hardware (CPU, GPU support).
+- You can change the default `Prompt Keyword` to another term that suits you.
 
 ## Release Notes
 
@@ -65,11 +71,21 @@ This extension contributes the following settings:
 - Review and fix selected code (line, block, or the entire file).
 - Floating action menu appears at the top of the code block or selected lines of code.
 
-### 0.0.2 (current)
-
-> In this version includes:
+### 0.0.2
 
 - **Update description**: Edit and update any incorrect links and add a 'no data collection' statement to the description.
+
+### 0.0.3
+
+- **Update the description**: Update the README file with additional notes and guidelines.
+- **Auto comment**: CODi can understand and add code explanations as comments to the selected code or the line where the cursor is positioned.
+- **Keyword meaning tool-tip**: CODi displays a tooltip (popup) when you hover your mouse over a keyword in a line. (Remember: use the key combination `Command+Shift+A` on macOS or `Ctrl+Shift+A` on Windows to activate or deactivate this feature.)
+
+### 0.0.4 (current)
+
+- **Code syntax highlight added**: beauty and clear code syntax added in this version
+- **Setting UI**: Changed the setting UI color following VS Code them.
+- **Some optimizations**: optimized Code reviewing and fixing feature.
 
 ## Additional Resources
 
@@ -131,3 +147,4 @@ These resources will help you easily find the information you need to get starte
 ## Getting Started
 
 To configure CODi, simply adjust these settings in your preferences to tailor the assistant to your workflow!
+
